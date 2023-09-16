@@ -77,9 +77,8 @@
                 $num1 = $_POST["num1"];
                 $num2 = $_POST["num2"];
                 $oparetion = $_POST["Oparetion"];
-            }
 
-            switch($oparetion){
+                switch($oparetion){
                 case "Add";
                     $result = $num1 + $num2;
                     echo "Results: $result";
@@ -116,6 +115,9 @@
                     echo  "Hexa" . dechex($num1);
                     break;
             }
+            }
+
+            
 
 
             ?>
